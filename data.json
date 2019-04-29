@@ -1,9 +1,7 @@
 {
   "file": true,
-  "name": "Pavan Prakash",
-  "profile": {
-    "age": 28
-  },
+  "name": "RDC Basecamp",
+  "description": "This is a mocked page for Ideathon POC",
   "meta": {
     "title": "Page read from file",
     "description": "TBD"

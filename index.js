@@ -6,7 +6,7 @@ const express = require('express');
 const fs = require('fs');
 const request = require('request');
 const jsonDataFromFile = require('./data.json');
-const mockAPI = 'http://www.mocky.io/v2/5cc6f11c320000651ab94fb7';
+const mockAPI = 'http://www.mocky.io/v2/5cc7140f320000af39b950a3';
 
 const templateTransformer = function(html, options) {
   let literalIdentifier = /<%([^%>]+)?%>/g,
