@@ -1,0 +1,10 @@
+{
+  "name": "campaigner",
+  "version": "0.0.1",
+  "description": "A simple POC to demonstrate the capabalities of inhouse templating engine",
+  "main": "index.js",
+  "repository": "https://github.com/draconiandev/campaigner",
+  "author": "Pavan Prakash",
+  "license": "MIT",
+  "private": true
+}
