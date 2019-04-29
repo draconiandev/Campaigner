@@ -6,5 +6,9 @@
   "repository": "https://github.com/draconiandev/campaigner",
   "author": "Pavan Prakash",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  }
 }

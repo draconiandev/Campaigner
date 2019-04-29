@@ -1,0 +1,11 @@
+{
+  "file": true,
+  "name": "Pavan Prakash",
+  "profile": {
+    "age": 28
+  },
+  "meta": {
+    "title": "Page read from file",
+    "description": "TBD"
+  }
+}
