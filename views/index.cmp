@@ -15,8 +15,8 @@
     <p>Hello, my name is <% this.name %>. This is a mocked page for POC</p>
     <% if(this.file) { %> <p>This comes from a file stored in the server</p><% } %>
     <% if(this.api) { %>
-      <p>This comes from the API response of <a src="http://www.mocky.io/v2/5cc6f11c320000651ab94fb7">this mock</a></p>
-      <p>You can also use your own mocked API from <a src="http://www.mocky.io">Mocky</a>. The format is as follows</p>
+      <p>This comes from the API response of <a href="http://www.mocky.io/v2/5cc6f11c320000651ab94fb7">this mock</a></p>
+      <p>You can also use your own mocked API from <a href="http://www.mocky.io">Mocky</a>. The format is as follows</p>
       <code>
         {
           "api": true,
@@ -27,7 +27,7 @@
             }
           }
       </code>
-      <p>Try changing the name and see if it reflects here</p>
+      <p>Try changing the name and see if it reflects here. You can enter https://brillio-campaigner.herokuapp.com/api?mockAPI=<new mocky url></p>
     <% } %>
   </body>
 </html>
