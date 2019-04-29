@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title><% this.meta.title %></title>
+    <meta name="description" content=<% this.meta.description %>>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/css/main.css">
+
+    <meta name="theme-color" content="#fafafa">
+  </head>
+  <body>
+    <h1>April POC - Release on demand campaigns using CMS</h1>
+    <p>Hello, my name is <% this.name %>. This is a mocked page for POC</p>
+    <a href="/file">Click here to go to a page which takes the data from a local file</a><br/>
+    <a href="/api">Click here to go to a page which takes the data from a mocked API</a>
+  </body>
+</html>

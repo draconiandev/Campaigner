@@ -14,6 +14,20 @@
     <h1>April POC - Release on demand campaigns using CMS</h1>
     <p>Hello, my name is <% this.name %>. This is a mocked page for POC</p>
     <% if(this.file) { %> <p>This comes from a file stored in the server</p><% } %>
-    <% if(this.api) { %> <p>This comes from the API response of http://www.mocky.io/v2/5cc6f11c320000651ab94fb7</p><% } %>
+    <% if(this.api) { %>
+      <p>This comes from the API response of <a src="http://www.mocky.io/v2/5cc6f11c320000651ab94fb7">this mock</a></p>
+      <p>You can also use your own mocked API from <a src="http://www.mocky.io">Mocky</a>. The format is as follows</p>
+      <code>
+        {
+          "api": true,
+          "name": "Pavan Prakash",
+          "meta": {
+            "title": "Page read from API",
+            "description": "TBD"
+            }
+          }
+      </code>
+      <p>Try changing the name and see if it reflects here</p>
+    <% } %>
   </body>
 </html>

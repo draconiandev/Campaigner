@@ -54,12 +54,26 @@ app.listen(port, err => {
   console.log(`> Ready On Server http://localhost:${port}`)
 });
 
+app.get('/', function (_req, res) {
+  res.render('home', jsonDataFromFile)
+});
+
 app.get('/file', function (_req, res) {
   res.render('index', jsonDataFromFile)
 });
 
-app.get("/api", (_req, res) => {
-  request(mockAPI, function (error, response, body) {
+app.get("/api", (req, res) => {
+  console.log(req)
+  let mockQueryApi = req.query.mockAPI;
+  console.log(mockQueryApi)
+  let finalAPI;
+  if (mockQueryApi) {
+    finalAPI = mockQueryApi
+  } else {
+    finalAPI = mockAPI
+  }
+  console.log(finalAPI)
+  request(finalAPI, function (error, response, body) {
     if (!error && response.statusCode == 200) {
       res.render('index', JSON.parse(body))
     }
