@@ -2,8 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title><% this.meta.title %></title>
-    <meta name="description" content=<% this.meta.description %>>
+    <title>Release on demand campaigns using CMS</title>
+    <meta name="description" content=Release on demand campaigns using CMS>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="/css/main.css">
